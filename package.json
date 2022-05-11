@@ -1,0 +1,37 @@
+{
+  "name": "my-trade-stats",
+  "version": "1.0.0",
+  "description": "For traders of all levels and asset types who just can't find the time to properly track and review their trading history. MyTradeStats.com has you covered! Unlike other journal programs out there, that make you manually input every single one of your trades, and/or seem to require a computer science degree to understand them, My Trade Stats automatically retrieves your trade history, does its powerful magic on the background, and BAM! gives you the custom, actionable data you need to analyze your trades, learn from your past and make you a better trader. Remember... there is no better teacher, than your last mistake!",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "Trade",
+    "trading",
+    "forex",
+    "charts",
+    "bitcoin",
+    "crypto",
+    "journal",
+    "tracker",
+    "stocks",
+    "performance",
+    "analytics"
+  ],
+  "author": "Jorge L Sader",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.7.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
